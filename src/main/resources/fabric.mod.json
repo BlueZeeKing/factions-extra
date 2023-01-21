@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "factions-money",
+  "version": "${version}",
+
+  "name": "Factions Money Mod",
+  "description": "Check faction claims for valuables and add power based on that",
+  "authors": [
+    "BlueZeeKing"
+  ],
+  "contact": {
+    "homepage": "https://github.com/BlueZeeKing/factions-money-power#readme",
+    "sources": "https://github.com/BlueZeeKing/factions-money-power"
+  },
+
+  "license": "MIT",
+  "icon": "assets/factions-money/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.blueish.factions.extra.FactionsExtraMod"
+    ]
+  },
+  "mixins": [
+    "factions-money.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "java": ">=17",
+    "factions": ">=2.2.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.blueish.factions.extra.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CreateCommandMixin",
+    "PlayerInventoryMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
